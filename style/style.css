@@ -324,7 +324,7 @@ margin-block-start: 40px;
     width: 100%;
     background-size: cover;
     background-position: center center;
-    max-width: 800px;
+    max-width: 2000px;
     padding-block: 7rem;
     overflow: hidden;
     display: flex;
@@ -411,12 +411,14 @@ padding-inline: 70px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 20px;
 }
 .line{
 border: 3px solid red;
  border-radius: 10px;
  width: 50px;
  margin-left: -160px;
+ 
 }
 /* gestion du responsive sur tablette */
 @media(min-width:768px){
@@ -424,6 +426,11 @@ border: 3px solid red;
   font-size: initial;
   padding-bottom: 10px;
 }
+.line{
+  
+   margin-left: -370px;
+   
+  }
 section{
   padding-inline: 24px;
   
